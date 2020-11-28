@@ -1,0 +1,27 @@
+<doctype html> 
+<html>
+    <head>
+       <title>Projeto inicial HTML</title> 
+       <meta charset="utf-8">
+    </head>
+    <body>
+        <h2>Mapa do Site</h2>
+        <!-- comentário "circle, squase e disc" -->
+        <ul type="disc">
+            <li>Home</li>
+            <li>Quem somos</li>
+            <li>Serviços</li>
+        </ul>
+
+        <h2>Perguntas</h2>
+        <!-- Lista Ordenada: 1, A, a, I. i-->
+        <ol type="i">
+            <li>Nome:</li>
+            <li>Email:</li>
+            <li>Telefone:</li>
+            
+        </ol>
+
+    </body>
+
+</html>
