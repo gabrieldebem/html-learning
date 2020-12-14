@@ -1,0 +1,47 @@
+#bg{
+    background: #d2d2c1 url(fundo.png);
+}
+#principal{
+    width: 900px;
+    background-color: #FCFBEC;
+}
+
+.margin{
+    
+    font-family: Arial, helvetica, sans-serif;
+}
+.ct{
+    text-align: center;
+}
+.b{
+    font-weight: bold;
+}
+a{
+    color: #46566A;
+    text-decoration: none;
+    padding: 5px;
+}
+#fbg{
+    background-color: #c5c5b2;
+    padding: 18px;
+}
+#fundotext{
+    background-color: #FCFBEC;
+}
+#footer{
+    text-align: center;
+}
+#sub{
+    color: #939786;
+}
+#borderimg{
+    border-style: solid;
+    border: solid 10px #D3D3BE;
+}
+
+p{
+    padding: 8px;
+}
+h2{
+    padding: 8px;
+}
