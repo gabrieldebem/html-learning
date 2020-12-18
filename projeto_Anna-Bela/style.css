@@ -1,47 +1,57 @@
-#bg{
+#bg {
     background: #d2d2c1 url(fundo.png);
 }
-#principal{
+
+#principal {
     width: 900px;
-    background-color: #FCFBEC;
+    background-color: #e8e8d9;
+    padding: 10px;
 }
 
-.margin{
-    
+.margin {
     font-family: Arial, helvetica, sans-serif;
 }
-.ct{
+
+.ct {
     text-align: center;
 }
-.b{
+
+.b {
     font-weight: bold;
 }
-a{
+
+a {
     color: #46566A;
     text-decoration: none;
     padding: 5px;
 }
-#fbg{
+
+#fbg {
     background-color: #c5c5b2;
     padding: 18px;
 }
-#fundotext{
+
+#fundotext {
     background-color: #FCFBEC;
 }
-#footer{
+
+#footer {
     text-align: center;
 }
-#sub{
+
+#sub {
     color: #939786;
 }
-#borderimg{
+
+#borderimg {
     border-style: solid;
     border: solid 10px #D3D3BE;
 }
 
-p{
+p {
     padding: 8px;
 }
-h2{
+
+h2 {
     padding: 8px;
 }
