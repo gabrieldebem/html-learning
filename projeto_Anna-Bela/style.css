@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #bg {
     background: #d2d2c1 url(fundo.png);
 }
@@ -21,10 +22,32 @@
 }
 
 a {
+=======
+#bg{
+    background: #d2d2c1 url(fundo.png);
+}
+#principal{
+    width: 900px;
+    background-color: #FCFBEC;
+}
+
+.margin{
+    
+    font-family: Arial, helvetica, sans-serif;
+}
+.ct{
+    text-align: center;
+}
+.b{
+    font-weight: bold;
+}
+a{
+>>>>>>> 220f663390c70febae0cc8bdabb64e39c28b1e9c
     color: #46566A;
     text-decoration: none;
     padding: 5px;
 }
+<<<<<<< HEAD
 
 #fbg {
     background-color: #c5c5b2;
@@ -44,14 +67,37 @@ a {
 }
 
 #borderimg {
+=======
+#fbg{
+    background-color: #c5c5b2;
+    padding: 18px;
+}
+#fundotext{
+    background-color: #FCFBEC;
+}
+#footer{
+    text-align: center;
+}
+#sub{
+    color: #939786;
+}
+#borderimg{
+>>>>>>> 220f663390c70febae0cc8bdabb64e39c28b1e9c
     border-style: solid;
     border: solid 10px #D3D3BE;
 }
 
+<<<<<<< HEAD
 p {
     padding: 8px;
 }
 
 h2 {
+=======
+p{
+    padding: 8px;
+}
+h2{
+>>>>>>> 220f663390c70febae0cc8bdabb64e39c28b1e9c
     padding: 8px;
 }
