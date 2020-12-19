@@ -1,0 +1,11 @@
+.noticia {
+    background-color: purple;
+    color: #f0f0f0;
+    border: solid red;
+    width: 900px;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0px;
+}
