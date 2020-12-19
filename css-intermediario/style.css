@@ -1,11 +1,41 @@
-.noticia {
-    background-color: purple;
-    color: #f0f0f0;
-    border: solid red;
-    width: 900px;
-    padding: 10px;
+#principal {
+    width: 920px;
+    border: 1px solid red;
+    background-color: #f4f4f4;
 }
 
-h2 {
+.noticia {
+    background-color: #e5e5e5;
+    padding: 5px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+h3 {
     margin: 0px;
+    text-align: center;
+}
+
+.foto {
+    background-color: #ac9d9d;
+    width: 300px;
+    padding: 5px;
+    float: left;
+    margin: 5px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.75);
+}
+
+img {
+    border: 3px solid #e5e5e5;
+    margin: 10px;
+}
+
+.down {
+    margin-left: 80px;
+    margin-right: 80px;
 }
