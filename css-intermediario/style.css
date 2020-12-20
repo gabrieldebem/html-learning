@@ -1,4 +1,4 @@
-#principal {
+/* #principal {
     width: 920px;
     border: 1px solid red;
     background-color: #f4f4f4;
@@ -38,4 +38,29 @@ img {
 .down {
     margin-left: 80px;
     margin-right: 80px;
+} */
+
+body {
+    background-color: #007fc7;
+}
+
+h1 {
+    margin: 0px;
+}
+
+p {
+    width: 350px;
+}
+
+.rel {
+    border: 1px solid red;
+    position: relative;
+    left: 400px;
+}
+
+#container {
+    background: #ffffff;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
 }
