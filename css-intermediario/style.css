@@ -58,9 +58,42 @@ p {
     left: 400px;
 }
 
+.abs {
+    border: 1px solid red;
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.sub {
+    border: 1px solid red;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+}
+
+.sub2 {
+    border: 1px solid red;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 160px;
+}
+
+.fixed {
+    position: fixed;
+    right: 20px;
+    bottom: 200px;
+}
+
 #container {
     background: #ffffff;
     width: 800px;
     margin: 10px auto;
     padding: 10px;
+    position: relative;
 }
