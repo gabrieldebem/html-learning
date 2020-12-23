@@ -38,7 +38,7 @@ img {
 .down {
     margin-left: 80px;
     margin-right: 80px;
-} */
+} 
 
 body {
     background-color: #007fc7;
@@ -96,4 +96,47 @@ p {
     margin: 10px auto;
     padding: 10px;
     position: relative;
+} */
+
+body {
+    background-color: wheat;
+}
+
+.corpo {
+    width: 1000px;
+    height: 100%;
+    margin: 10px auto;
+    background-color: violet;
+    text-align: center;
+}
+
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+
+/* links não visitados*/
+
+a:link,
+a:visited {
+    color: green;
+}
+
+
+/* links visitados*/
+
+
+/* passar o mouse sobre o link*/
+
+a:hover {
+    background-color: orchid;
+    color: maroon;
+}
+
+
+/* links ativos (clica e segura)*/
+
+a:active {
+    color: orange;
 }
