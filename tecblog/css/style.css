@@ -1,20 +1,30 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;
     padding: 0px;
 }
 body{
-    background-color: #c6c6c6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    background-color: #e6e6e6;
 }
 a {
-    color: #ffffff;
     text-decoration: none;
-    font-weight: 900;
-    padding: 8px 12px;
+}
+a:link, a:visited{
+    color: #f7b600;
 }
 a:hover{
-    background-color: #FFF;
+    text-decoration: underline;
+}
+
+#cabeçalho a:link, #cabeçalho a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+}
+#cabeçalho a:hover{
     color: #f7b600;
+    background: #FFF;
+    text-decoration: none;
 }
 li{
     padding: 5px 0px;
@@ -26,9 +36,10 @@ li{
 #cabeçalho{
     background-color: #f7b600;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 h1{
+    padding: 10px;
     color: #FFF;
 }
 h1>span{
@@ -38,22 +49,44 @@ h1>span{
 
 
 /*principal*/
-#post{
-    background-color: #ffffff;
-    width: 640px;
-    margin: 20px auto; 
-    padding: 15px; 
+p{
+    padding: 5px 0;
+    margin: 5px 0;
 }
-#post>h2{
+#principal{
+    width: 940px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+#area-post{
+    width: 660px;
+    float: left;
+   
+}
+
+#post-area a:link, #post-area a:visited{
+    color: #f7b600;
+}
+
+.post{
+    background-color: #FFF;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h2{
     color: #f7b600;
 }
 
 #lateral{
     width: 240px;
-    padding: 10px;
-    position: absolute;
-    right: 10px;
-    top: 135px;
+    float: right;
+}
+h3{
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+    font-size: 16px;
 }
 
 .menu{
@@ -64,13 +97,21 @@ h1>span{
 
 .latmenu{
     color: #f7b600;
+    margin-bottom: 5px;
+}
+.post-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
 }
 .latli{
     color:black;
 }
 
 footer{
+    clear: both;
     text-align: center;
     padding: 10px;
     margin: 10px;
+    background-color: #CCC;
 }
